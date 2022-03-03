@@ -1,4 +1,4 @@
-![Screenshot](f/logo.png)
+![Screenshot](logo.png)
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 
-# Web cam detector
+# Motion detector
 
 > A web camera motion detection system which ables to detect human objects.
 
@@ -14,7 +14,7 @@
 
 ### Production
 - python 3.8+
-- [folium](https://python-visualization.github.io/folium/) 
+- [opencv](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html) 
 - [pandas](https://pandas.pydata.org)
 
 ### Development
@@ -32,14 +32,14 @@ TBD
 git clone git@github.com:vyahello/motion-detector.git
 python3 -m venv venv 
 . venv/bin/activate
-cd volcano-mapping
+cd motion-detector
 pip install -r requirements.txt
 python detector/app.py
 ```
 
 A web camera should be launched on your machine.
 
-**[⬆ back to top](#web-cam-detector)**
+**[⬆ back to top](#motion-detector)**
 
 ## Development notes
 
@@ -76,7 +76,7 @@ I would highly appreciate any contribution and support. If you are interested to
 
 ### What's next
 
-All recent activities and ideas are described at project [issues](https://github.com/vyahello/volcano-mapping/issues) page. 
+All recent activities and ideas are described at project [issues](https://github.com/vyahello/motion-detector/issues) page. 
 If you have ideas you want to change/implement please do not hesitate and create an issue.
 
-**[⬆ back to top](#web-cam-detector)**
+**[⬆ back to top](#motion-detector)**
